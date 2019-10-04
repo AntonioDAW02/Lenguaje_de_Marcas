@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+
+    <marcas>
+
+        <marca nombre="Mercedes" pais_procedencia="Alemania">
+
+            <coches>
+
+                <coche matricula="3456 CSS" año_matriculacion="2016" modelo="Clase A" numero_plazas="5" cc="4"/>
+                <coche matricula="6789CTS" año_matriculacion="2014" modelo="Clase C" numero_plazas="5" cc="3"/>
+
+            </coches>
+
+        </marca>
+
+        <marca nombre="lamborgini" pais_procedencia="Italia">
+
+            <coches>
+
+                <coche matricula="6596 BDD" año_matriculacion="2014" modelo="Huracan" numero_plazas="5" cc="1"/>
+                <coche matricula="3456ASD" año_matriculacion="2019" modelo="" numero_plazas="" cc="2"/>
+
+            </coches>
+
+        </marca>
+
+        <marca nombre="Bugatti" pais_procedencia="Francia">
+
+            <coches>
+
+                <coche matricula="" año_matriculacion="2018" modelo="Chiron" numero_plazas="5" cc="6"/>
+                <coche matricula="" año_matriculacion="2019" modelo="Cientodeci" numero_plazas="5" cc="5"/>
+
+            </coches>
+
+        </marca>
+
+        <marca nombre="Alfa Romeo" pais_procedencia="italia">
+
+            <coches>
+
+                <coche matricula="5867TRR" año_matriculacion="2019" modelo="4C" numero_plazas="5" cc="8"/>
+                <coche matricula="6758FCC" año_matriculacion="2017" modelo="8C" numero_plazas="5" cc=""/>
+
+            </coches>
+
+        </marca>
+
+        <marca nombre="BMW" pais_procedencia="Alemania">
+
+            <coches>
+
+                <coche matricula="5676BDC" año_matriculacion="2018" modelo="i3" numero_plazas="5" cc="6"/>
+                <coche matricula="6709AEE" año_matriculacion="2019" modelo="i5" numero_plazas="5" cc="5"/>
+
+            </coches>
+
+        </marca>
+
+    </marcas>
+
+</concesionario>

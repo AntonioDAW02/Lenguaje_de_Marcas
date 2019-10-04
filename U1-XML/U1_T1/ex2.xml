@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centro_comercial>
+
+    <tiendas>
+
+        <tienda nombre="carrefour" metros_cuadrados="12000">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Pedro" apellidos="Jimenez Suarez" telefono="678354132" NSS="000123456789"/>
+
+        </tienda>
+
+        <tienda nombre="LIDL" metros_cuadrados="5000">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Lisa" apellidos="Fernandez fernandez" telefono="67985643" NSS="234111012345"/>
+
+        </tienda>
+
+        <tienda nombre="El corte ingles" metros_cuadrados="10000">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Pedro" apellidos="Jimenez Alcantara" telefono="655433211" NSS="675846574856"/>
+
+        </tienda>
+
+        <tienda nombre="" metros_cuadrados="">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Antonio" apellidos="Montes" telefono="Martinez" NSS="567439800912"/>
+
+        </tienda>
+
+        <tienda nombre="La cahona de merche" metros_cuadrados="50">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Merche" apellidos="Lopez Sanchez" telefono="666543876" NSS="956489001232"/>
+
+        </tienda>
+
+        <tienda nombre="MAS" metros_cuadrados="2000">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Laura" apellidos="Zamora Rodriguez" telefono="678896781" NSS="456009123874"/>
+
+        </tienda>
+
+        <tienda nombre="La esquina" metros_cuadrados="70">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+                <parcela>3</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Pepe" apellidos="Rodriguez Garcia" telefono="912856784" NSS="456012374856"/>
+
+        </tienda>
+
+        <tienda nombre="Mcdonalds" metros_cuadrados="100">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                
+            </parcelas>
+
+            <encargado nombre="Roberto" apellidos="Lopez Garcia" telefono="611000932" NSS="459455112345"/>
+
+        </tienda>
+
+        <tienda nombre="Polvillo" metros_cuadrados="70">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                
+            </parcelas>
+
+            <encargado nombre="Marco" apellidos="Sanchez Araujo" telefono="655987678" NSS="569574896786"/>
+
+        </tienda>
+
+        <tienda nombre="Bar La alegria" metros_cuadrados="90">
+
+            <parcelas>
+
+                <parcela>1</parcela>
+                <parcela>2</parcela>
+
+            </parcelas>
+
+            <encargado nombre="Antonio" apellidos="Bermejo Lopez" telefono="" NSS=""/>
+
+        </tienda>
+
+    </tiendas>
+
+</centro_comercial>

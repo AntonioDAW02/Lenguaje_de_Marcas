@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro titulo="Desconocidos" editorial="edebe" numero_paginas="224" autor="David Lozano Garbala">
+
+    <capitulos>
+
+        <capitulo titulo="el hombre misterioso" pagina_inicio="1" pagina_finalizacion="38"/>
+        <capitulo titulo="la puerta magica" pagina_inicio="39" pagina_finalizacion="59"/>
+        <capitulo titulo="la vecina" pagina_inicio="60" pagina_finalizacion="110"/>
+        <capitulo titulo="el hombre a caballo" pagina_inicio="111" pagina_finalizacion="144"/>
+        <capitulo titulo="el desafio" pagina_inicio="145" pagina_finalizacion="184"/>
+        <capitulo titulo="la lucha final" pagina_inicio="185" pagina_finalizacion="224"/>
+
+    </capitulos>
+
+</libro>
