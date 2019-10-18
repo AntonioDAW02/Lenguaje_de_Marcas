@@ -4,6 +4,7 @@
 
 Realizar un DTD y el XML Schema que validen el siguiente XML.
 
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <iceCreamShop>
  <iceCream manufacture="2015-01-30">
@@ -13,11 +14,11 @@ Realizar un DTD y el XML Schema que validen el siguiente XML.
   <strawberry>500</strawberry>
  </iceCream>
 </iceCreamShop>
-
+```
 # EJERCICIO 2 (ej2.xml,ej2.dtd,e2.xsd)
 
 Realizar un DTD y el XML Schema que validen el siguiente XML.
-
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <students>
  <student dni="11111111A">
@@ -47,11 +48,11 @@ Realizar un DTD y el XML Schema que validen el siguiente XML.
   <phone>955550000</phone>
  </student>
 </students>
-
+```
 # EJERCICIO 3 (e31.xml,ej3.dtd,e3.xsd)
 
 Realizar un DTD y el XML Schema que validen el siguiente XML.
-
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beatles>
     <beatle link="http://www.paulmccartney.com">
@@ -85,3 +86,4 @@ Realizar un DTD y el XML Schema que validen el siguiente XML.
         </name>
     </beatle>
 </beatles>
+```
