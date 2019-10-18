@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="iceCreamShop">
+
+        <xs:complexType>
+
+            <xs:sequence>
+
+                <xs:element name="iceCream" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+                            
+                            <xs:element name="chocolate" type="xs:int" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="strawberry" type="xs:int" minOccurs="0" maxOccurs="unbounded"/>
+
+                        </xs:sequence>
+
+                        <xs:attribute name="manufacture" type="xs:date"/>
+
+                    </xs:complexType>   
+
+                </xs:element>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>
