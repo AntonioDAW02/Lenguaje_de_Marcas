@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 4</title>
+    <style>
+        form{
+            width: 50%;
+            border: 5px solid blue;
+            padding: 15px;
+        }
+        button{
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend>General Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="date">Arrival Date:</label>
+                    </td>
+                    <td>
+                        <input name=" date" type="date" width="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nights">Nights:</label>
+                    </td>
+                    <td>
+                        <input name="nights" type="number" value="3" size="25" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="adults">Adults</label>
+                    </td>
+                    <td>
+                        <select name="adult" id="">
+                            <option value="0">0</option>
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="children">Children:</label>
+                    </td>
+                    <td>
+                        <select name="children" id="">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="room">Room type:</label>
+                        <input type="radio" name="room" value="standart"> Standart
+                        <input type="radio" name="room" value="business"> Business
+                        <input type="radio" name="room" value="suite"> Suite
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bed">Bed type:</label>
+                        <input type="radio" name="bed" value="King"> King
+                        <input type="radio" name="bed" value="Double"> Double  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">Smoking
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                            <input type="text" name="name"/>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" value="graceyahoo.com" />
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone</label>
+                            <input name="phone" type="text" value="123-456-789"/>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit" value="Submit reservation">Submit reservation</button>
+            <button type="reset">Clear</button>
+    </form>
+</body>
+
+</html>
