@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+    <style>
+        thead tr td{
+            text-align: center;
+            background-color: aquamarine;
+        }
+        button{
+            padding: 3px 18px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2">IES ALixar Login</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="usuario">Usuario: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="usuario"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password: </label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fecha">Fecha de Nacimiento: </label>
+                    </td>
+                    <td>
+                        <input type="date" name="fecha"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="matriculacion">Curso de matriculación</label>
+                    </td>
+                    <td>
+                        <select name="curso" id="">
+                            <option value="PrimeroDaw1" selected>Primero DAW1</option>
+                            <option value="PrimeroDaw1">Segundo DAW1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="role">Role: </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="role" value="Estudiante" checked>Estudiante<br>
+                        <input type="radio" name="role" value="Profesor">Profesor<br>
+                        <input type="radio" name="role" value="Apoyo">Apoyo<br>
+                        <input type="radio" name="role" value="Staff">Staff<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comunicacion">Comunicación</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" value="Mail">Mail <br>
+                        <input type="checkbox" value="Teléfono">Telefono <br>
+                        <input type="checkbox" value="Correo Ordinario" checked>Correo Ordinario <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                            <button name="enviar">Enviar</button>
+                        <button name="borrar">Borrar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
