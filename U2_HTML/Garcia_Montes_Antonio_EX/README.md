@@ -22,7 +22,7 @@ Exercise 3 (ej3.html)
 Exercise 4 (ej4.html)
 ---------------------
 
-![ej4](libro2.png)
+![ej4](libro2.jpg)
 
 **NOTA:** Fijaros en la alineación de los elementos. Elegid adecuadamente el tipo de los campos del formulario y recordar ASOCIAR el campo de los formularios con las etiquetas de los mismos.
 
