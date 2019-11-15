@@ -3,19 +3,19 @@
 Exercise 1: (ej1.html)
 ----------------------
 
-![ej1](ej1.png)
+![ej1](libro1.jpeg)
 
 Exercise 2 (ej2.html)
 ---------------------
 
-![ej2](ej2.png)
+![ej2](nasa.jpg)
 
 **NOTA:** Al hacer click en el avión se abrirá una nueva pestaña que muestre la dirección https://nasa.gov
 
 Exercise 3 (ej3.html)
 ---------------------
 
-![ej3](ej3.png)
+![ej3](libro3.jpeg)
 
 **NOTA:** Fijaros en la alineación de los elementos. Elegid adecuadamente el tipo de los campos del formulario y recordar ASOCIAR los campos del formulario con las etiquetas de los mismo.
 
