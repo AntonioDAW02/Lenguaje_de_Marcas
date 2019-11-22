@@ -1,0 +1,31 @@
+/* esilo tabla */
+
+tbody tr:nth-child(odd) {
+    background: red;
+}
+
+tbody tr:nth-child(odd):hover {
+    background: yellow;
+    color: chocolate;
+}
+
+tbody tr:nth-child(even) {
+    background: lightblue;
+}
+
+tbody tr:nth-child(even):hover {
+    background: lightgreen;
+    color: blueviolet;
+}
+
+table tbody tr td{
+    border-bottom: 1px solid black;
+}
+
+table thead tr td {
+    background-color: black;
+    color: white;
+}
+
+/* fin estilo tabla */
+

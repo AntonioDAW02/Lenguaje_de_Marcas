@@ -1,0 +1,29 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+thead {
+    background-color: lightslategray;
+    color:blue;
+}
+
+th h2 {
+    margin: 0 10px;
+    letter-spacing: 4px;
+}
+
+#primertitulo{
+    padding-top: 75px;
+}
+
+.titulo{
+    color: chocolate;
+    padding-top: 35px;
+    letter-spacing: 4px;
+}
+
+tr td{
+    padding-left: 10px;
+}

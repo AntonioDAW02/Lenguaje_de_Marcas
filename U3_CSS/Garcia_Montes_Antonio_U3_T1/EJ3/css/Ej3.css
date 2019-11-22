@@ -1,0 +1,11 @@
+h1,h2,strong,em, ul li ul li, tr td,input,a:visited {
+    color: red;
+}
+
+.location, label, legend {
+    color: blue;
+}
+
+body{
+    width: 40%;
+}
