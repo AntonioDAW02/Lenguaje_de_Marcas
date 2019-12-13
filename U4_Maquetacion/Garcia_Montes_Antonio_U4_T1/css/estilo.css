@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+header h1, header p {
+    margin: 0;
+}
+
+header h1{
+    background-color: black;
+    color:white;
+
+    padding: 1%;
+    
+    text-align: center;
+}
+
+header p {
+    color: black;
+
+    text-align: right;
+}
+
+/*FIN HEADER*/
+
+/*NAVEGADOR*/
+nav ul li{
+    list-style-type: none;
+}
+
+
+.menuprincipal{
+    background-color: black;
+    float: left;
+    width: 100%;
+}
+
+.menuprincipal ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.menuprincipal ul li {
+    
+    color:white;
+
+    float: left;
+
+    padding: 1% 2%;
+
+}
+
+.menuprincipal ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+/*FIN NAVEGADOR*/
+
+/*ASIDE*/
+.aside {
+    float: left;
+    width: 25%;
+}
+
+.aside h4 {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+.aside ul {
+    padding: 0;
+}
+
+.aside ul li {
+    padding: 2% 0;
+    margin: 2% 0;
+}
+
+.gris {
+    background-color: gray;
+    
+}
+
+#grisgrande{
+    height: 220px;
+}
+
+/*FIN ASIDE*/
+
+/*CONTENIDO CENTRAL*/
+
+.contenidocentral{
+    float: left;
+
+    margin: 1% 10%;
+    padding: 1% 5%;
+
+    text-align:center;
+
+    height: 258px;
+    width: 30%;
+
+}
+
+.figure{
+    background-color: gray;
+}
+
+.figure p {
+    padding-bottom: 7%;
+}
+
+img{
+    padding: 7%;
+    width: 100%;
+    height: 100%;;
+}
+
+/*FIN CONTENIDO CENTRAL*/
+/*ASIDE DERECHO*/
+.asideform{
+    width: 25%;
+    float: left;
+}
+
+.asideform h4 {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+/*FIN ASIDE DERECHO*/
+/*PIE DE PAGINA*/
+
+.pie{
+    background-color: black;
+    color: white;
+
+    clear: both;
+
+    float: left;
+
+    text-align: center;
+
+    width: 90%;
+
+    position: fixed;
+
+    bottom: 0;
+}
+
+.pie p{
+    margin: 0;
+}
+
+/*FIN PIE DE PAGINA*/
