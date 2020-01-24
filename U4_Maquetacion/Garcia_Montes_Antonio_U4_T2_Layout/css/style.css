@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*SECTION*/
+section {
+    float: left;
+    width: 65%;
+}
+
+article{
+    float: left;
+    margin-bottom: 3%;
+    width: 50%;
+}
+
+article img {
+    width: 75%;
+    float: left;
+    height: 225px;
+}
+
+article h2, article h3, article h4, article p {
+    float: left;
+}
+
+
+
+article p {
+    padding-right: 0 3%;
+}
+
+#img3{
+    margin-top: 21%;
+}
+
+#img2{
+    float: right;
+    padding-right: 3%;
+}
+
+/*HEADER*/
+
+.titulo h2{
+    text-transform: uppercase;
+    color: #333CFF;
+}
+
+.text h2, .text h4{
+    margin:1% 0;
+}
+
+.text p {
+    margin-bottom: 15%;
+}
+
+/*ASIDE*/
+aside{
+    width: 30%;
+    float: left;
+}
+
+.asidediv1, .asidediv2 {
+    float: left;
+    width: 100%;
+    margin: 3%;
+}
+
+.asidediv1 {
+    background-color: #333CFF;
+    text-align: center;
+    color: white;
+}
+
+.asidediv1 h1, p.paside, h6.paside{
+    margin:1%;
+}
+
+.asidediv1, .asidediv2 h1 {
+    text-transform: uppercase;
+}
+
+.paside {
+    width: 100%;
+}
+
+.asidediv2 {
+    border: 1px solid #000000;
+    
+}
+
+.asidediv2 h6:nth-child(2){
+    padding-bottom: 150px;
+}
+/*FORM*/
+form {
+    padding: 4%;
+}
+
+.asidediv2 h1, .asidediv2 p{   
+   text-align: center; 
+}
+
+.asidediv2 h1 {
+    background-color: gray;
+    color: white;
+    margin: 0;
+    padding: 1%;
+}
+
+.asidediv2 p {
+    margin:0;
+    padding:2%;
+    width: 100%;
+}
+
+label {
+    float: left;
+    padding-right:2%;
+    padding-bottom: 2%;
+}
+input, select {
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="checkbox"]{
+    width: auto;
+}
+
+.b_env{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+}
+
+/*FORM*/
