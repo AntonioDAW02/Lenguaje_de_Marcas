@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+/*/HEADER*/
+.logo {
+    float: left;
+    width: 80%;
+}
+
+.buscador {
+    float: left;
+    width: 20%;
+}
+
+.buscador p {
+    margin-left: 11%;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.buscador img{
+    width: 10%;
+}
+
+#china {
+    margin-left: 80%;
+}
+/*FIN HEADER*/
+
+/*MENU*/
+
+.menu {
+    width: 100%;
+    overflow-y: auto;
+    color: white;
+    float: left;
+}
+
+.menu ul {
+    background-color:palevioletred;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 5%;
+    padding: 1%;
+    text-align: center;
+    margin-right: 0;
+}
+
+.menu ul li:hover {
+    background-color: aqua;
+}
+
+/*FIN MENU*/
+
+/*contenido central*/
+
+.contenidocentral {
+    float: left;
+    position: relative;
+    width: 80%;
+    margin-top:2%;
+}
+
+.banner1{
+    position: relative;
+}
+
+.banner1 div {
+    color: red;
+    font-size: 25px;
+    position: absolute;
+}
+
+#der{
+    bottom: 55px;
+    left: 790px;
+}
+
+#izq{
+    bottom: 55px;
+    left: 30px;
+}
+
+#cen{
+    bottom: 20px;
+    left: 390px;
+}
+
+.contenidocentral img {
+    width: 98%;
+}
+
+.aside {
+    float: right;
+    width: 20%;
+}
+
+.aside img{
+    width: 100%;
+}
+
+.columnas {
+    column-count: 3;
+    column-gap: 0;
+
+    text-align: center;
+
+    margin:2% auto;
+    width: 70%;
+}
+
+.column {
+    border: 2px solid pink;
+    border-radius: 5%;
+    
+    padding: 8%;
+    height: 165px;
+
+    width: 60%;
+}
+
+.columnas img {
+    width: 80%;
+}
+
+/*FIN contenido central*/
+
+.pie {
+    background-color: palevioletred;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 1% 0;
+    overflow-y: auto;
+    width: 100%;
+}
