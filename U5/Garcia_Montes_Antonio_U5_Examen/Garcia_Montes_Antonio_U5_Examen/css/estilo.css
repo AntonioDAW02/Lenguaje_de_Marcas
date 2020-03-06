@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 'header'
+                         'main'
+                         'teams'
+                         'options';
+}
+
+/*Estructura general*/
+
+.header {
+    grid-area: header;
+    background-color: black;
+    padding: 2%;
+}
+
+.main{
+    grid-area: main;
+    background-color: gray;
+    color: white;
+}
+
+.teams{
+    grid-area: teams;
+}
+
+.options{
+    grid-area: options;
+}
+
+/*Fin estructura general*/
+
+.main, .teams, .options {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.main .section2 form label, .main .section2 form input, .main .section2 form p {
+    display: none;
+}
+
+.main .section2 .boton{
+    background-color: green;
+    color: white;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.header img{
+    width: 5%;
+    float: left;
+}
+
+.header i {
+    float: right;
+    color: white;
+}
+
+.header nav ul{
+    display: none;
+}
+
+.options img {
+    width: 30%;
+}
+
+/*Especificaciones para tablets (dimensiones de 576px a 992px)*/
+@media (min-width: 576px) and (max-width: 992px){
+    .main .section2 form label, .main .section2 form input, .main .section2 form p {
+        display: block;
+    }
+
+    .main .section2 form{
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        padding: 1%;
+    }
+
+    .main .section2 form label {
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    .main .section2 form input {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main .section2 form button {
+        margin-top: 1%; 
+    }
+}
+
+/*Especificaciones para odenadores (dimensiones superiores a 992px)*/
+@media (min-width:993px) {
+    .container{
+        display: grid;
+        grid-template-areas: 'header header'
+                             'main main'
+                             'teams teams'
+                             'options options';
+    }
+
+    .header nav ul{
+        display: inline-block;
+        width: 80%;
+        padding-left: 0; 
+    }
+
+    .header nav ul li{
+        color: white;
+        display: inline-block;
+    
+        width: 15%;
+        height: 2rem;
+
+        text-align: center;
+    }
+
+    .header i {
+        display: none;
+    }
+
+    .header nav {
+        width: 90%;
+        float: left;
+    }
+
+    .main, .teams, .options {
+        text-align: center;
+        padding: 2%;
+    }
+
+    .main .section1, .main .section2{
+        float: right;
+    }
+
+    .main .section1, .main .section2 {
+        width: 50%;
+        padding: 0 2%;
+    }
+
+    .main .section2 form label, .main .section2 form input, .main .section2 .boton , .main .section2 form p {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .main .section2 .boton {
+        margin-top: 2%;
+    }
+
+    .options img {
+        float: left;
+        width: 50%;
+    }
+
+    .options .option1, .options .option2, .options .option3 {
+        float: right;
+    } 
+
+    .options .option1, .options .option2 {
+        width: 25%;
+    }
+
+    .option3 {
+        width: 50%;
+    }
+}
