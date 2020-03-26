@@ -1,0 +1,32 @@
+//Colores generales
+$color:rgb(5, 162, 253);
+$color-border: rgb(70, 68, 68);
+
+//Color texto
+$text-color: $color;
+
+//Colores borde
+$border-top-color:$color-border;
+$border-style:"solid";
+$border-width:0.1rem;
+
+$main-container-width:80%;
+
+$margin-icons: 2%;
+
+.container {
+    width: $main-container-width;
+    margin: 2% auto;
+}
+
+h4{
+    color: $text-color;
+}
+
+.icons {
+    margin-right: $margin-icons;
+}
+
+.bordertop {
+    border-top: $border-width #{$border-style} $border-top-color;
+}

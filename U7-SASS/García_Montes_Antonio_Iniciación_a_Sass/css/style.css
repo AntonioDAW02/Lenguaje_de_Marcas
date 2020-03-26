@@ -1,0 +1,18 @@
+.container {
+  width: 80%;
+  margin: 2% auto;
+}
+
+h4 {
+  color: #05a2fd;
+}
+
+.icons {
+  margin-right: 2%;
+}
+
+.bordertop {
+  border-top: 0.1rem solid #464444;
+}
+
+/*# sourceMappingURL=style.css.map */
