@@ -1,0 +1,210 @@
+//Breakpoints
+$tablet: 576px;
+$ordenador:992px;
+
+//Container
+//$main-container-width:70%;
+
+//Colores generales
+$color:rgb(5, 162, 253);
+$color-border: rgb(70, 68, 68);
+
+//Color texto
+$text-color: $color;
+
+//Colores borde
+$border-top-color:$color-border;
+$border-style:"solid";
+$border-width:0.1rem;
+
+//Tamaños header
+$h4 : 12px;
+
+//Márgenes
+$margin: 2%;
+
+//Padding
+$padding: 3%;
+
+//Tabla
+$table-width:80%;
+
+//Columnas
+$colum: 50%;
+$float-colum:left;
+
+$auto: auto;
+
+//Alineación de textos
+$text-align-center: center;
+$text-align-left: left;
+$text-align-right: right;
+
+//Propiedades para aplicar grid
+$display_container:grid;
+
+$gap: 3%;
+
+$grid-area-1:"header header";
+$grid-area-2:"information information";
+$grid-area-3:"education education";
+$grid-area-4:"experience experience";
+$grid-area-5:"competences competences";
+
+.grid_container {
+    display:$display_container;
+
+    grid-template-columns: $colum $colum;
+    grid-template-rows: $auto;
+
+    grid-template-areas:  $grid-area-1
+                          $grid-area-2 
+                          $grid-area-3 
+                          $grid-area-4 
+                          $grid-area-5 ;
+
+    grid-gap: $gap;
+    padding: $padding;
+}
+
+.icons {
+    margin-right: $margin;
+}
+
+.border_bottom {
+    border-bottom: $border-width #{$border-style} $border-top-color;
+}
+
+h4{
+    color: $text-color;
+}
+
+table {
+    margin: $auto;
+    width: $table-width;
+}
+
+table tr th {
+    text-align: $text-align-center;
+}
+
+table tr td:nth-child(1){
+    text-align: $text-align-left;
+}
+
+table tr td:nth-child(2){
+    text-align: $text-align-right
+}
+
+/* Función calcularAnchura().
+ * Para indicar las anchuras de los elementos
+ * principales en los distintos breakpoints. */
+
+ @function calcularAnchura($num){
+    @return $num * 15%;
+}
+
+/* FIN DE LA FUNCIÓN CalcularAnchura() */
+
+/*VERSIONES DE LA PÁGINA (TEMA CLARO / TEMA OSCURO) */
+
+$tema-oscuro: true;
+
+@if $tema-oscuro {
+    .grid-container{
+        background-color: black;
+        color:wheat;
+        padding: $padding;
+    }
+} @else {
+    .grid-container{
+        background-color: white;
+        color: black;
+        padding: $padding;
+    }
+}
+
+/* MÓVILES */
+
+/*@media (max-width:$tablet){
+
+    .grid-container{
+        padding: $padding;
+    }
+
+}*/
+
+/* FIN DE MÓVILES */
+
+/* TABLETS */
+
+@media (min-width:$tablet){
+
+    .colum{
+        width: $colum;
+        float: $float-colum;
+    }
+
+    .imagen{
+        float: $float-colum;
+    }
+    
+    .grid-container{
+        width: calcularAnchura(5);
+        margin: $auto;
+    }
+
+}
+
+/* FIN DE TABLETS */
+
+/* ORDENADORES */
+
+@media (min-width:$ordenador){
+    /*#info_p{
+        text-align: $text-align-left;
+    }*/
+    
+    .colum{
+        width: $colum;
+        float: $float-colum;
+        /*text-align: $text-align-center;*/
+    }
+
+    .imagen{
+        float: $float-colum;
+    }
+    
+    .grid-container{
+        width: calcularAnchura(4);
+        margin: $auto;
+    }
+}
+
+/* FIN DE ORDENADORES */
+
+/*BUCLE FOR PARA COLORES DE LA TABLA*/
+
+$lista-colores: green, red,pink, lightblue,yellow, grey, orange;
+
+@for $i from 1 through 7 {
+    table tr:nth-child(#{$i}) {
+      background-color: nth($lista-colores, $i);
+    }
+}
+
+/*FIN BUCLE FOR PARA COLORES DE LA TABLA*/
+
+/*BUCLE WHILE PARA TAMAÑOS DE LOS ENCABEZADOS*/
+$num-header:7;
+$lista-tamanios:40px,35px,30px,25px,20px,15px;
+$valor : 1;
+
+@while $valor < $num-header {
+    h#{$valor}{
+        font-size: nth($lista-tamanios,$valor);
+    }
+    $valor:$valor+1;
+}
+
+/*FIN BUCLE WHILE PARA TAMAÑOS DE LOS ENCABEZADOS*/
