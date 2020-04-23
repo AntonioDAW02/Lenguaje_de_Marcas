@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+/* ICONO PRINCIPAL*/
+
+.rot_text {
+    transform: rotate(-5deg);
+}
+
+.h4_text{
+    font-size: 50px;
+}
+
+.p_text {
+    font-size: 40px;
+}
+
+/* FIN ICONO PRINCIPAL */
+
+/*TEXTO Y FOTO CENTAL - ITEM_3*/
+
+.item3_left{
+    font-size: 20px;
+}
+
+.item3_center{
+    font-size: 31px;
+    color: orange;
+}
+
+.item3_right{
+    font-size: 14px;
+}
+
+/*FIN TEXTO Y FOTO CENTRAL*/
+
+/* GALERIA DE FOTOS */
+
+.galeria_fotos{
+    width: 100%;
+}
+
+/* FIN GALERIA DE FOTOS */
+
+/*REDES SOCIALES*/
+
+.tit_rs {
+    font-size: 18px;
+}
+
+.redsocial img {
+    width: 12%;
+}
+
+/* MÓVILES */
+
+@media (max-width:576px){
+
+    .rs-movil{
+        background-color: #343a40;
+        display: block;
+        position: absolute;
+        bottom: 0.5%;
+        width: 100%;
+        height: auto;
+        
+        color: white;
+        
+    }
+
+}
+
+/* FIN DE MÓVILES */
+
+/*FIN DE REDES SOCIALES*/
+
+/*****TABLETS*****/
+
+@media (min-width: 576px) and (max-width: 991px) {
+
+    /* ICONO PRINCIPAL*/
+
+    .h4_text{
+        font-size: 35px;
+    }
+
+    .p_text {
+        font-size: 25px;
+    }
+
+    /* FIN ICONO PRINCIPAL */
+    
+    /* TEXTO Y FOTO CENTAL - ITEM 3 */
+
+    .item3_left{
+        font-size: 20px;
+    }
+
+    .item3_center{
+        font-size: 31px;
+        color: orange;
+    }
+
+    .item3_right{
+        font-size: 14px;
+    }
+
+    /* FIN TEXTO Y FOTO CENTRAL - ITEM 3*/
+
+    /* GALERIA DE FOTOS */
+
+    .galeria_fotos{
+        width: 80%;
+    }
+
+    /* FIN GALERIA DE FOTOS */
+
+    /*REDES SOCIALES*/
+
+    .tit_rs {
+        font-size: 13px;
+    }
+
+    .redsocial img {
+        width: 15%;
+    }
+
+    /*FIN DE REDES SOCIALES*/
+
+}
+
+/* FIN TABLETS */
+
+/* ORDENADORES */
+
+@media (min-width: 992px) {
+
+    /* ICONO PRINCIPAL*/
+
+    .h4_text{
+        font-size: 30px;
+    }
+
+    .p_text {
+        font-size: 20px;
+    }
+
+    /* FIN ICONO PRINCIPAL */
+    
+    /* TEXTO Y FOTO CENTAL - ITEM 3 */
+
+    .item3_left{
+        font-size: 33px;
+    }
+    
+    .item3_center{
+        font-size: 52px;
+        color: orange;
+    }
+    
+    .item3_right{
+        font-size: 24px;
+    }
+
+    /* FIN TEXTO Y FOTO CENTRAL - ITEM 3*/
+
+    /* GALERIA DE FOTOS */
+
+    .galeria_fotos{
+        width: 100%;
+    }
+
+    /* FIN GALERIA DE FOTOS */
+
+    /*REDES SOCIALES*/
+
+    .tit_rs {
+        font-size: 14px;
+    }
+
+    .redsocial img {
+        width: 10%;
+    }
+
+    /*FIN DE REDES SOCIALES*/
+
+}
+
+/* FIN ORDENADORES */
