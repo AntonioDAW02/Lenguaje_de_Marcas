@@ -1,0 +1,20 @@
+/*BUCLE FOR PARA COLORES DE LA TABLA*/
+
+@for $i from 1 through 7 {
+    table tr:nth-child(#{$i}) {
+      background-color: nth($lista-colores, $i);
+    }
+}
+
+/*FIN BUCLE FOR PARA COLORES DE LA TABLA*/
+
+/*BUCLE WHILE PARA TAMAÑOS DE LOS ENCABEZADOS*/
+
+@while $valor < $num-header {
+    h#{$valor}{
+        font-size: nth($lista-tamanios,$valor);
+    }
+    $valor:$valor+1;
+}
+
+/*FIN BUCLE WHILE PARA TAMAÑOS DE LOS ENCABEZADOS*/

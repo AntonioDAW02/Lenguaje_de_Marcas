@@ -1,0 +1,9 @@
+/* Función calcularAnchura().
+ * Para indicar las anchuras de los elementos
+ * principales en los distintos breakpoints. */
+
+ @function calcularAnchura($num){
+    @return $num * 15%;
+}
+
+/* FIN DE LA FUNCIÓN CalcularAnchura() */

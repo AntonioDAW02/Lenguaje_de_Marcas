@@ -1,0 +1,44 @@
+/*VERSIONES DE LA PÁGINA (TEMA CLARO / TEMA OSCURO) */
+
+$tema-oscuro: true;
+
+@if $tema-oscuro {
+    .grid-container{
+        background-color: black;
+        color:wheat;
+        padding: $padding;
+    }
+
+    .nav{
+        background-color: blanchedalmond;
+    }
+
+    .nav ul li a {
+        color: black;
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+    }
+} @else {
+    .grid-container{
+        background-color: white;
+        color: black;
+        padding: $padding;
+    }
+}
+
+$tema-claro: false;
+
+@if $tema-claro {
+    .grid-container{
+        background-color: wheat;
+        color:black;
+        padding: $padding;       
+    }
+} @else {
+    .grid-container{
+        background-color: black;
+        color: wheat;
+        padding: $padding;
+    }
+}

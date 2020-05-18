@@ -1,0 +1,14 @@
+/*centrar un bloque en el padre*/
+@mixin centrado {
+    margin: 0 auto;
+}
+
+/*centrar elemento en linea*/
+@mixin centrado_enlinea {
+    margin: 0 auto;
+}
+
+/*mixins centrado*/
+.header, span{
+    @include centrado;
+}
