@@ -1,0 +1,40 @@
+//// @access public
+//// @author antonio
+
+///VERSIONES DE LA PÁGINA (TEMA CLARO / TEMA OSCURO)
+
+///Variable inicializada a false
+$tema-oscuro: false;
+
+///Estructura if que cambia los estilos del contenedor principal dependiendo del valor de la variable $tema-oscuro
+@if $tema-oscuro {
+    .grid-container{
+        background-color: white;
+        color: black;
+        padding: $padding;
+    }
+} @else {
+    .grid-container{
+        background-color: black;
+        color:wheat;
+        padding: $padding;        
+    }
+}
+
+///Variable inicializada a true
+$tema-claro: true;
+
+///Estructura if que cambia los estilos del contenedor principal dependiendo del valor de la variable $tema-claro
+@if $tema-claro {
+    .grid-container{
+        background-color: black;
+        color: wheat;
+        padding: $padding;
+    }
+} @else {
+    .grid-container{
+        background-color: wheat;
+        color:black;
+        padding: $padding;        
+    }
+}

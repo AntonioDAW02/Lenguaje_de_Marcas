@@ -1,0 +1,152 @@
+//// @access public
+//// @author @antonio
+
+///Breakpoints
+///@group breakpoints
+$tablet: 576px;
+$ordenador:992px;
+
+///Color de texto
+///@group colores
+$color:rgb(5, 162, 253);
+
+///Color de borde
+///@group colores
+$color-border: rgb(70, 68, 68);
+
+//Color texto
+$text-color: $color;
+
+//Color de borde
+$border-top-color:$color-border;
+
+///Estilo del border
+///@group borde
+$border-style:"solid";
+
+///Ancho del border
+///@group borde
+$border-width:0.1rem;
+
+///Tamaño de encabezados
+///@group header
+$h4 : 12px;
+
+///Márgen
+///@group margen
+$margin: 2%;
+
+///Padding
+///@group padding
+$padding: 3%;
+
+///Ancho de la tabla
+///@group tabla
+$table-width:80%;
+
+///Ancho de columnas
+///@group columnas
+$colum: 50%;
+
+///Flotación de columnas
+///@group columnas
+$float-colum:left;
+
+///Centrar automáticamente
+///@group centrar
+$auto: auto;
+
+///Alineación de texto al centro
+///@group alineacion
+$text-align-center: center;
+
+///Alineación de texto a la izquierda
+///@group alineacion
+$text-align-left: left;
+
+///Alineación de texto a la derecha
+///@group alineacion
+$text-align-right: right;
+
+//Propiedades para aplicar grid
+
+///Display container grid
+///@group grid
+$display_container:grid;
+
+///Separación entre columnas
+///@group grid
+$gap: 3%;
+
+///Nombrar cada parte
+///@group grid
+$grid-area-1:"header header";
+
+///@group grid
+$grid-area-2:"information information";
+
+///@group grid
+$grid-area-3:"education education";
+
+///@group grid
+$grid-area-4:"experience experience";
+
+///@group grid
+$grid-area-5:"competences competences";
+
+
+///Variable para colores de la tabla
+///@group tabla
+$lista-colores: green, red,pink, lightblue,yellow, grey, orange;
+
+///Variables para los tamaños de encabezados.
+///@group header
+$num-header:7;
+
+///Variables para los tamaños de encabezados.
+///@group header
+$lista-tamanios:40px,35px,30px,25px,20px,15px;
+
+///@group header
+$valor : 1;
+
+///Variables para el menu.
+///@group colores
+$background-menu:black;
+
+///Color de texto del menu
+///@group colores
+$color-text-menu:rgb(255, 255, 255);
+
+///Tamaño de fuente
+///@group fuente
+$font-size-menu:20px;
+
+///Padding de elementos del menú
+///@group padding
+$padding-enlace-menu:15px 0;
+
+///@group menu
+$overflow-hidden:hidden;
+
+///Posición del menú
+///@group menu
+$position-menu:sticky;
+
+///@group menu
+$none:none;
+
+///@group menu
+$top-menu:0;
+
+//7Display de enlace del menú
+///@group menu
+$display-enlace-menu:block;
+
+///Ancho de la lista
+///@group lista
+$width-lista: 32%;
+
+///Padding de la lista
+///@group lista
+$padding-left-lista:0;

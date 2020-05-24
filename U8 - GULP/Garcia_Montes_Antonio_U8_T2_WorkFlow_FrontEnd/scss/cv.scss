@@ -1,0 +1,107 @@
+//// @access public
+//// @author antonio
+
+@import "variables";
+@import "estructuras_repetitivas";
+@import "funciones";
+@import "temas";
+@import "mixins";
+@import "menu";
+
+///Estilos del contenedor principal
+.grid_container {
+    display:$display_container;
+
+    grid-template-columns: $colum $colum;
+    grid-template-rows: $auto;
+
+    grid-template-areas:  $grid-area-1
+                          $grid-area-2 
+                          $grid-area-3 
+                          $grid-area-4 
+                          $grid-area-5 ;
+
+    grid-gap: $gap;
+    padding: $padding;
+}
+
+///Estilos de los iconos
+.icons {
+    margin-right: $margin;
+}
+
+///Estilo del border inferior del botón
+.border_bottom {
+    border-bottom: $border-width #{$border-style} $border-top-color;
+}
+
+///Encabezado h4
+h4{
+    color: $text-color;
+}
+
+///Estilos de la tabla
+table {
+    margin: $auto;
+    width: $table-width;
+}
+
+///Estilos de la tabla
+table tr th {
+    text-align: $text-align-center;
+}
+
+///Estilos de la tabla
+table tr td:nth-child(1){
+    text-align: $text-align-left;
+}
+
+///Estilos de la tabla
+table tr td:nth-child(2){
+    text-align: $text-align-right
+}
+
+///Estilo para tablets
+
+@media (min-width:$tablet){
+
+    ///Estilo de columnas
+    .colum{
+        width: $colum;
+        float: $float-colum;
+    }
+
+    ///Estilo de imágenes
+    .imagen{
+        float: $float-colum;
+    }
+    
+    ///Estilo del contenedor principal
+    .grid-container{
+        width: calcularAnchura(5);
+        margin: $auto;
+    }
+
+}
+
+///Estilo para ordenadores
+
+@media (min-width:$ordenador){
+
+    ///Estilo de columnas
+    .colum{
+        width: $colum;
+        float: $float-colum;
+    }
+
+    ///Estilo de imágenes
+    .imagen{
+        float: $float-colum;
+    }
+    
+    ///Estilo del contenedor principal
+    .grid-container{
+        width: calcularAnchura(4);
+        margin: $auto;
+    }
+}

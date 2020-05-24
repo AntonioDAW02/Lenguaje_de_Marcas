@@ -1,0 +1,14 @@
+//// @access public
+//// @author antonio
+
+/// Función calcularAnchura().
+/// Indica las anchuras de los elementos principales en los distintos breakpoints. 
+
+///@group anchura
+///@parameter {int} $num - Valor para calcular la anchura
+///@return {int}
+///@example scss - Función Calcular anchura
+
+@function calcularAnchura($num){
+    @return $num * 15%;
+}

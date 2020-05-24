@@ -1,0 +1,19 @@
+//// @access public
+//// @author antonio
+
+/// @group tabla
+///BUCLE FOR PARA COLORES DE LA TABLA
+@for $i from 1 through 7 {
+    table tr:nth-child(#{$i}) {
+      background-color: nth($lista-colores, $i);
+    }
+}
+
+/// @group lista
+///BUCLE WHILE PARA TAMAÑOS DE LOS ENCABEZADOS
+@while $valor < $num-header {
+    h#{$valor}{
+        font-size: nth($lista-tamanios,$valor);
+    }
+    $valor:$valor+1;
+}

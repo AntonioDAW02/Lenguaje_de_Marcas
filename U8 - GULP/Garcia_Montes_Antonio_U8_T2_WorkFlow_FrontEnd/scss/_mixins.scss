@@ -1,0 +1,17 @@
+//// @access public
+//// @author @antonio
+
+///Mixin para centrar elementos en bloque en su padre
+@mixin centrado {
+    margin: 0 auto;
+}
+
+///Mixin para centrar elemntos en linea
+@mixin centrado_enlinea {
+    text-align: center;
+}
+
+///Mixins centrados
+.header, span{
+    @include centrado;
+}

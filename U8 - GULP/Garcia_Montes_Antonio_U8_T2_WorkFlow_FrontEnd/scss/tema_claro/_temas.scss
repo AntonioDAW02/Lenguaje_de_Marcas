@@ -1,0 +1,33 @@
+/*VERSIONES DE LA PÁGINA (TEMA CLARO / TEMA OSCURO) */
+
+$tema-oscuro: false;
+
+@if $tema-oscuro {
+    .grid-container{
+        background-color: white;
+        color: black;
+        padding: $padding;
+    }
+} @else {
+    .grid-container{
+        background-color: black;
+        color:wheat;
+        padding: $padding;        
+    }
+}
+
+$tema-claro: true;
+
+@if $tema-claro {
+    .grid-container{
+        background-color: black;
+        color: wheat;
+        padding: $padding;
+    }
+} @else {
+    .grid-container{
+        background-color: wheat;
+        color:black;
+        padding: $padding;        
+    }
+}

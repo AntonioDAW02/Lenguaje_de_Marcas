@@ -1,0 +1,71 @@
+//Breakpoints
+$tablet: 576px;
+$ordenador:992px;
+
+//Colores generales
+$color:rgb(5, 162, 253);
+$color-border: rgb(70, 68, 68);
+
+//Color texto
+$text-color: $color;
+
+//Colores borde
+$border-top-color:$color-border;
+$border-style:"solid";
+$border-width:0.1rem;
+
+//Tamaños header
+$h4 : 12px;
+
+//Márgenes
+$margin: 2%;
+
+//Padding
+$padding: 3%;
+
+//Tabla
+$table-width:80%;
+
+//Columnas
+$colum: 50%;
+$float-colum:left;
+
+$auto: auto;
+
+//Alineación de textos
+$text-align-center: center;
+$text-align-left: left;
+$text-align-right: right;
+
+//Propiedades para aplicar grid
+$display_container:grid;
+
+$gap: 3%;
+
+$grid-area-1:"header header";
+$grid-area-2:"information information";
+$grid-area-3:"education education";
+$grid-area-4:"experience experience";
+$grid-area-5:"competences competences";
+
+//Variable para colores de la tabla
+$lista-colores: green, red,pink, lightblue,yellow, grey, orange;
+
+//Variables para los tamaños de encabezados.
+$num-header:7;
+$lista-tamanios:40px,35px,30px,25px,20px,15px;
+$valor : 1;
+
+//Variables para el menu.
+$background-menu:black;
+$color-text-menu:rgb(255, 255, 255);
+$font-size-menu:20px;
+//$padding-menu:10px;
+$padding-enlace-menu:15px 0;
+$overflow-hidden:hidden;
+$position-menu:sticky;
+$none:none;
+$top-menu:0;
+$display-enlace-menu:block;
+$width-lista: 32%;
+$padding-left-lista:0;

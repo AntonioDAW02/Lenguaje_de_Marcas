@@ -1,0 +1,97 @@
+@import "variables";
+@import "estructuras_repetitivas";
+@import "funciones";
+@import "temas";
+@import "mixins";
+@import "menu";
+
+.grid_container {
+    display:$display_container;
+
+    grid-template-columns: $colum $colum;
+    grid-template-rows: $auto;
+
+    grid-template-areas:  $grid-area-1
+                          $grid-area-2 
+                          $grid-area-3 
+                          $grid-area-4 
+                          $grid-area-5 ;
+
+    grid-gap: $gap;
+    padding: $padding;
+}
+
+/*iconos*/
+.icons {
+    margin-right: $margin;
+}
+
+/*border*/
+.border_bottom {
+    border-bottom: $border-width #{$border-style} $border-top-color;
+}
+
+/*header - h4*/
+h4{
+    color: $text-color;
+}
+
+/*Tabla*/
+table {
+    margin: $auto;
+    width: $table-width;
+}
+
+table tr th {
+    text-align: $text-align-center;
+}
+
+table tr td:nth-child(1){
+    text-align: $text-align-left;
+}
+
+table tr td:nth-child(2){
+    text-align: $text-align-right
+}
+
+/* TABLETS */
+
+@media (min-width:$tablet){
+
+    .colum{
+        width: $colum;
+        float: $float-colum;
+    }
+
+    .imagen{
+        float: $float-colum;
+    }
+    
+    .grid-container{
+        width: calcularAnchura(5);
+        margin: $auto;
+    }
+
+}
+
+/* FIN DE TABLETS */
+
+/* ORDENADORES */
+
+@media (min-width:$ordenador){
+    .colum{
+        width: $colum;
+        float: $float-colum;
+    }
+
+    .imagen{
+        float: $float-colum;
+    }
+    
+    .grid-container{
+        width: calcularAnchura(4);
+        margin: $auto;
+    }
+}
+
+/* FIN DE ORDENADORES */

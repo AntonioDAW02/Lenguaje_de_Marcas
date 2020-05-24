@@ -1,0 +1,32 @@
+//// @access public
+//// @author antonio
+
+///Estilo del menú.
+.nav {
+    background-color: $background-menu;
+    font-size: $font-size-menu;
+    position: $position-menu;
+    top: $top-menu;
+}
+
+///Estilo de la lista del menú
+.nav ul {
+    list-style: $none;
+    overflow: $overflow-hidden;
+    padding-left: $padding-left-lista;
+}
+
+///Estilo de la lista del menú
+.nav ul li {
+    float: $float-colum;
+    text-align: $text-align-center;
+    width: $width-lista;
+}
+
+///Estilo de los enlaces de la lista del menú
+.nav ul li a {
+    color:$color-text-menu;
+    display: $display-enlace-menu;
+    padding: $padding-enlace-menu;
+    text-decoration: $none;
+}
